@@ -17,13 +17,9 @@
 - [Splunk](https://www.splunk.com/) Splunk is an innovative technology which searches and indexes application/system log files and helps organizations derive insights from the data.
 
 # Jenkins Complete CI/CD Pipeline Project Runbook
-1) Create a GitHub Repository with the name `Jenkins-Realworld-CICD-Project` and push the code in this branch(main) to 
-    your remote repository (your newly created repository). 
-    - Go to GitHub: https://github.com
-    - Login to `Your GitHub Account`
-    - Create a Repository called `Jenkins-Realworld-CICD-Project`
+1) Fork the GitHub Repository with the name `Jenkins-Realworld-CICD-Project`.
     - Clone the Repository in the `Repository` directory/folder on your `local machine`
-    - Download the code in in this repository `"Main branch"`: https://github.com/awanmbandi/realworld-cicd-pipeline-project.git
+    - Download the code in in this repository `"Main branch"`: https://github.com/98kshitij/Jenkins-Realworld-CICD-Project
     - `Unzip` the `code/zipped file`
     - `Copy` and `Paste` everything `from the zipped file` into the `repository you cloned` in your local
     - Open your `Terminal`
@@ -31,9 +27,8 @@
         - Add the changes: `git add -A`
         - Commit changes: `git commit -m "adding project source code"`
         - Push to GitHub: `git push`
-    - Confirm that the code is now available on GitHub as shown below...
-    ![ProjectRepositoryCode!](https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/zdocs/images/project-repository-code2.png)
-
+    - Confirm that the code is now available on GitHub.
+    
 2) Create An IAM Profile/Role For The Ansible Automation Engine (Dynamic Inventory)
 - Create an EC2 Service Role in IAM with AmazonEC2FullAccess Privilege 
 - Navigate to IAM
