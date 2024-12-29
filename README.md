@@ -84,7 +84,7 @@
     - Instance type: `t2.micro`
     - Key pair: `Select a keypair`
     - Security Group (Eit/Open): `8080, 9100, 9997` and `22 to 0.0.0.0/0`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/tomcat-splunk-installation/tomcat-ssh-configure.sh
+    - User data (Copy the following user data): https://github.com/98kshitij/Jenkins-Realworld-CICD-Project/blob/main/config/tomcat-ssh-configure.sh
     - Launch Instance
 
 7) EC2 (Stage Environment)
@@ -97,7 +97,7 @@
     - Instance type: `t2.micro`
     - Key pair: `Select a keypair`
     - Security Group (Eit/Open): `8080, 9100, 9997` and `22 to 0.0.0.0/0`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/tomcat-splunk-installation/tomcat-ssh-configure.sh
+    - User data (Copy the following user data): https://github.com/98kshitij/Jenkins-Realworld-CICD-Project/blob/main/config/tomcat-ssh-configure.sh
     - Launch Instance
 
 8) EC2 (Prod Environment)
@@ -110,7 +110,7 @@
     - Instance type: `t2.micro`
     - Key pair: `Select a keypair`
     - Security Group (Eit/Open): `8080, 9100, 9997` and `22 to 0.0.0.0/0`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/tomcat-splunk-installation/tomcat-ssh-configure.sh
+    - User data (Copy the following user data): https://github.com/98kshitij/Jenkins-Realworld-CICD-Project/blob/main/config/tomcat-ssh-configure.sh
     - Launch Instance
 
 9) Prometheus
